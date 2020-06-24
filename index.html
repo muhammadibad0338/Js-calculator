@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculator</title>
+
+</head>
+<body>
+    <div class="heading">
+        <h1>Calculator</h1>
+    </div>
+    <div class="main">
+        <div class="input">
+            <input id="result" style="width: 100%; height:30px;" type="text">
+        </div>
+        <div class="btncntnr">
+            <button onclick="clearresult()" style="background-color: #61655B;color: #ffffff;text-shadow: 0 1px;text-shadow: 0 1px rgba(255,255,255,0.2), 0 -1px rgba(0,0,0,0.8);
+            box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.3), inset 0 -3px 1px 0 rgba(0,0,0,0.3), inset 0 -5px 10px 2px rgba(0, 0, 0, 0.3), inset 0 4px 6px 0 rgba(255,255,255,0.1), 0 -1px 0px 2px #CCC4B2, 0 1px 0px 2px rgba(255,255,255,0.7);">C</button>
+            <button onclick="backslash()" style="background-color: #61655B;color: #ffffff;text-shadow: 0 1px;text-shadow: 0 1px rgba(255,255,255,0.2), 0 -1px rgba(0,0,0,0.8);
+            box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.3), inset 0 -3px 1px 0 rgba(0,0,0,0.3), inset 0 -5px 10px 2px rgba(0, 0, 0, 0.3), inset 0 4px 6px 0 rgba(255,255,255,0.1), 0 -1px 0px 2px #CCC4B2, 0 1px 0px 2px rgba(255,255,255,0.7);"><img src="https://calculatorbysherry.web.app/bs.png" width="17px;"></button> 
+            <button onclick="getnumber('/')">/</button>
+            <button onclick="getnumber('*')">X</button>
+        </div>
+        <div class="btncntnr">
+            <button onclick="getnumber('7')">7</button>
+            <button onclick="getnumber('8')">8</button>
+            <button onclick="getnumber('9')">9</button>
+            <button onclick="getnumber('-')">-</button>
+        </div>
+        <div class="btncntnr">
+            <button onclick="getnumber('4')">4</button>
+            <button onclick="getnumber('5')">5</button>
+            <button onclick="getnumber('6')">6</button>
+            <button onclick="getnumber('+')">+</button>
+        </div>
+        <div class="btncntnr" style="position: relative;">
+            <button onclick="getnumber('1')">1</button>
+            <button onclick="getnumber('2')">2</button>
+            <button onclick="getnumber('3')">3</button>
+            
+        <button onclick="equalfun()"  style="position: absolute; height: 100px;margin-left: 6%;background-color: #ffa500;color: white;color: #ffffff;
+        text-shadow: 0 1px rgba(255,255,255,0.2), 0 -1px rgba(164,27,21,0.8);
+        background: #FA4C07;
+        box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.3), inset 0 -3px 1px 0 rgba(164,27,21,1), inset 0 -5px 10px 2px rgba(164, 27, 21, 0.5), inset 0 4px 6px 0 rgba(255,255,255,0.1), 0 -1px 0px 2px #CCC4B2, 0 1px 0px 2px rgba(255,255,255,0.7);">=</button>
+        </div>
+        <div class="btncntnr">
+            <button onclick="getnumber('0')" style="width: 42%;">0</button>
+            <button onclick="getnumber('.')">.</button>
+        </div>
+        <h4 style=" text-align: right;margin-top: 18%;">
+           Name : Muhammad Ibad <br><a href="">Git CODE Link</a>
+        </h4>
+        
+
+    </div>
+
+
+</body>
+<script src="app.js"></script>
+</html>

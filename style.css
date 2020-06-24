@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ECEFEF;
+}
+
+.heading > h1{
+    text-align: center;
+    font-family: Brush Script MT;
+    letter-spacing: 3px;
+    font-size: 80px;
+    font-weight: 50;
+    color:rgb(7, 5, 110);
+}
+.main{
+    width: 50%;
+    margin: 0 auto;
+    height: 450px;
+    border-radius: 6px;
+    padding: 5% 18%;
+    background: #E6E1DA;
+    box-shadow: 0 8px 10px -4px rgba(0, 0, 0, 0.5), 0 40px 50px -15px rgba(0, 0, 0, 0.2), inset 0 -2px 8px 1px rgba(204, 194, 181, 1), 0px 2px 1px 0px rgba(255,255,255,0.8) inset;
+}
+.input > input{
+    border-radius: 2px;
+    font-size: 45px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.7);
+    text-shadow: 0 4px rgba(0, 0, 0, 0.1);
+    background: #c6c5ad;
+    line-height: 45px;
+    padding: 4px 10px 0px 0;
+    box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.5), inset 0 2px 12px 0 rgba(0, 0, 0, 0.4), 0 0 0 2px rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+}
+.btncntnr > button{
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 18%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    height: 40px;
+    color: #6f6243;
+    text-shadow: 0 1px 0 #ffffff, 0 -1px rgba(0,0,0,0.2);
+    font-size: 80%;
+    line-height: 25px;
+    box-sizing: border-box;
+    background: #efebe5;
+    margin-top: 20px;
+    margin-left: 5%;
+    box-shadow: inset 0 1px 0 0 #ffffff, inset 0 -3px 1px 0 rgba(93, 80, 51, 0.3), inset 0 -5px 10px 2px rgba(204, 196, 178, 0.8), inset 0 4px 6px 0 rgba(255,255,255,0.8), 0 -1px 0px 2px #CCC4B2, 0 1px 0px 2px rgba(255,255,255,0.7);
+}
+.btncntnr > button:active {
+    box-shadow: inset 0 3px 5px 0 rgba(93, 80, 51, 0.4), inset 0 5px 10px 2px rgba(204, 196, 178, 0.8), inset 0 4px 6px 0 rgba(255,255,255,0.8), 0 -1px 0px 2px #CCC4B2, 0 1px 0px 2px rgba(255,255,255,0.7);
+    
+    border: 1px solid rgba(247, 243, 243, 0.5);
+}
+  
